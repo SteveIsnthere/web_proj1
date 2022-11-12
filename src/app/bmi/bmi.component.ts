@@ -12,4 +12,8 @@ export class BmiComponent{
 
   constructor() { }
 
+   bmi (){
+    this.weight/this.height**2
+  }  
+
 }
