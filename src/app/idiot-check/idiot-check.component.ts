@@ -5,11 +5,9 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './idiot-check.component.html',
   styleUrls: ['./idiot-check.component.css']
 })
-export class IdiotCheckComponent implements OnInit {
+export class IdiotCheckComponent {
+  iq=200
+  
 
   constructor() { }
-
-  ngOnInit(): void {
-  }
-
 }
