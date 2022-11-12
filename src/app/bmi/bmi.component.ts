@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class BmiComponent{
 
-  welecomeMessage = "Welcome to BMI Calculator";
+  height: number = 0;
+  weight: number = 0;
 
   constructor() { }
 
