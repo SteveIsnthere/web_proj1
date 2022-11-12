@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IdiotCheckComponent {
   iq=200
-  
-
+  height_selected = 0
+  education_selected = 0;
   constructor() { }
 }

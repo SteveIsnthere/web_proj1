@@ -1,40 +1,39 @@
 <h2>你有多高?</h2>
-  <select id = "q1">
-    <option value = 1>130-140公分</option>
-    <option value = 2>141-150公分</option>
-    <option value = 3>151-160公分</option>
-    <option value = 4>161以上公分</option>
-  </select>
-  <h2>你的最高學歷</h2>  
-  <select id = "q2">
-    <option value = 1>我就是只有幼稚園畢業怎樣啦</option>
-    <option value = 2>國小</option>
-    <option value = 3>我早就脫離中二少年了(國中畢業)</option>
-    <option value = 4>高中</option>
-    <option value = 5>大學</option> 
-  </select>  
-  
-  
-   
-  <h2>覺得自己是不是智障</h2>
-  <input type="radio" name="q2" id = "q3_yes">
-  <label for="age1">Yes</label><br>
-  <input type="radio" name="q2"  id = "q3_no">
-  <label for="age2">No</label><br> 
+<select id="q1" [(ngModel)]=height_selected>
+  <option value=1>130-140公分</option>
+  <option value=2>141-150公分</option>
+  <option value=3>151-160公分</option>
+  <option value=4>161以上公分</option>
+</select>
+<h2>你的最高學歷</h2>
+<select id="q2" [(ngModel)]=education_selected>
+  <option value=1>我就是只有幼稚園畢業怎樣啦</option>
+  <option value=2>國小</option>
+  <option value=3>我早就脫離中二少年了(國中畢業)</option>
+  <option value=4>高中</option>
+  <option value=5>大學</option>
+</select>
 
-  <br>
+<h2>覺得自己是不是智障</h2>
+<input type="radio" name="q2" id="q3_yes">
+<label>Yes</label><br>
+<input type="radio" name="q2" id="q3_no">
+<label>No</label><br>
 
-  <h2>你是？</h2>
-  <select id = "name">
-    <option value = 1>你媽</option>
-    <option value = 2>愛妃</option>
-    <option value = 3>將軍</option>
-    <option value = 4>宰相</option>
-    <option value = 5>小倪子</option>
-    <option value = 6>刺客</option>
-    <option value = 7>其他</option>
-  </select>
+<br>
+
+<h2>你是？</h2>
+<select id="name">
+  <option value=1>你媽</option>
+  <option value=2>愛妃</option>
+  <option value=3>將軍</option>
+  <option value=4>宰相</option>
+  <option value=5>小倪子</option>
+  <option value=6>刺客</option>
+  <option value=7>其他</option>
+</select>
 
 
-  <button onclick="showResult()">Submit</button>
-  <img id="image" src="https://cdn4.vectorstock.com/i/1000x1000/84/33/sticker-of-a-cartoon-dumb-kid-vector-24158433.jpg"></img>
+<button onclick="showResult()">Submit</button>
+<img id="image"
+     src="https://cdn4.vectorstock.com/i/1000x1000/84/33/sticker-of-a-cartoon-dumb-kid-vector-24158433.jpg" alt="">
