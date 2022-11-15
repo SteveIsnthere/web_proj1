@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { BmiComponent } from './bmi/bmi.component';
 import {FormsModule} from "@angular/forms";
 import { IdiotCheckComponent } from './idiot-check/idiot-check.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BmiComponent,
-    IdiotCheckComponent
+    IdiotCheckComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,
