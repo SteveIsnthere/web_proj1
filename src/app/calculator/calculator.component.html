@@ -1,2 +1,32 @@
-<p>calculator works!</p>
+<mat-card>
+  <mat-card-title>Calculator</mat-card-title>
+  <mat-card-content>
+    <div style="display: flex">
+      <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>First Number</mat-label>
+        <input matInput type="text" [(ngModel)]="firstNumber">
+      </mat-form-field>
+
+      <!--    10 px h spacer-->
+      <div style="width: 10px"></div>
+
+
+      <mat-form-field class="example-form-field" appearance="fill">
+        <mat-label>Second Number</mat-label>
+        <input matInput type="text" [(ngModel)]="secondNumber">
+      </mat-form-field>
+    </div>
+
+    <p>addResult: {{addResult()}}</p>
+    <p>subtractResult: {{subtractResult()}}</p>
+    <p>multiplyResult: {{multiplyResult()}}</p>
+    <p>divideResult: {{divideResult()}}</p>
+
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <button mat-button>Like</button>
+    <button mat-button>SHARE</button>
+  </mat-card-actions>
+</mat-card>
+
 

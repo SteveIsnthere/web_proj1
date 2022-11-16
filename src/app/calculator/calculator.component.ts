@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-calculator',
@@ -13,7 +13,19 @@ export class CalculatorComponent  {
   constructor() { }
 
   addResult(){
+    return 0;
+  }
 
+  multiplyResult(){
+    return 0;
+  }
+
+  subtractResult(){
+    return 0;
+  }
+
+  divideResult(){
+    return 0;
   }
 
 }
