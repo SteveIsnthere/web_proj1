@@ -13,6 +13,8 @@ export class CalculatorComponent  {
   constructor() { }
 
   addResult(){
+  this.firstNumber = Number(this.firstNumber);
+  this.secondNumber = Number(this.secondNumber);
     return this.firstNumber+ this.secondNumber;
   }
 
