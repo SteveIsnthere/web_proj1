@@ -13,19 +13,19 @@ export class CalculatorComponent  {
   constructor() { }
 
   addResult(){
-    return 0;
+    return this.firstNumber+ this.secondNumber;
   }
 
   multiplyResult(){
-    return 0;
+    return this.firstNumber * this.secondNumber;
   }
 
   subtractResult(){
-    return 0;
+    return this.firstNumber - this.secondNumber;
   }
 
   divideResult(){
-    return 0;
+    return this.firstNumber / this.secondNumber;
   }
 
 }
